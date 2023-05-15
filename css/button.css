@@ -1,0 +1,19 @@
+.button {
+  padding: 13px 36px;
+  font-family: "PP Neue Machina";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.button--white {
+  background-color: transparent;
+  color: #151515;
+}
+
+.button--dark {
+  background-color: #151515;
+  color: #ffffff;
+}
