@@ -1,6 +1,6 @@
 .button {
   padding: 13px 36px;
-  font-family: "PP Neue Machina";
+  font-family: "PP Neue Machina", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -8,7 +8,7 @@
   text-align: center;
 }
 
-.button--white {
+.button--transparent {
   background-color: transparent;
   color: #151515;
 }
@@ -16,4 +16,9 @@
 .button--dark {
   background-color: #151515;
   color: #ffffff;
+}
+
+.button--white {
+  background-color: #FFFFFF;
+  color: #151515;
 }
