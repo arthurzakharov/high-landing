@@ -4,7 +4,28 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "PP Neue Machina", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+}
+
 button {
+  font-family: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: inherit;
   background-color: transparent;
   border: none;
+}
+
+input {
+  font-family: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: inherit;
 }

@@ -56,11 +56,6 @@
 
 .footer__link a {
     text-decoration: none;
-    font-family: 'PP Neue Machina', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 26px;
     color: #FFFFFF;
 
 }
@@ -69,8 +64,6 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    font-family: 'PP Neue Machina', sans-serif;
-    font-style: normal;
     color: #FFFFFF;
 }
 
@@ -93,8 +86,6 @@
 
 .footer__subscribe label {
     display: inline-block;
-    font-family: 'PP Neue Machina', sans-serif;
-    font-style: normal;
     font-weight: 800;
     font-size: 20px;
     line-height: 28px;
@@ -110,18 +101,11 @@
     min-width: 0;
     background-color: transparent;
     border: 1px solid #FFFFFF;
-    font-family: 'PP Neue Machina', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 26px;
     color: #FFFFFF;
     padding: 16px 20px 10px 20px;
 }
 
 .footer__copyright {
-    font-family: 'PP Neue Machina', sans-serif;
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 26px;
