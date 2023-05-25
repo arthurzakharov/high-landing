@@ -12,6 +12,10 @@ body {
   line-height: 26px;
 }
 
+ul, ol {
+  list-style: none;
+}
+
 button {
   font-family: inherit;
   font-style: inherit;
