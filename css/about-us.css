@@ -1,0 +1,139 @@
+.about-us {
+
+}
+
+.about-us__label {
+    display: inline-block;
+    margin-bottom: 20px;
+    border: 1px solid #151515;
+    padding: 13px 16px 7px 16px;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+.about-us__title {
+    max-width: 282px;
+    margin-bottom: 29px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 29px;
+    letter-spacing: -1.4px;
+}
+
+.about-us__text {
+    margin-bottom: 41px;
+}
+
+.about-us__points {
+    margin-bottom: 40px;
+    padding-left: 22px;
+}
+
+.about-us__point {
+    position: relative;
+}
+
+.about-us__point:before {
+    display: block;
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: 4px;
+    left: -22px;
+    width: 10px;
+    height: 10px;
+    transform: translateX(-50%);
+    background-color: #151515;
+}
+
+.about-us__point:not(:last-of-type) {
+    margin-bottom: 21px;
+}
+
+.about-us__image {
+    width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+    .about-us {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .about-us__content {
+        position: relative;
+    }
+
+    .about-us__title {
+        margin-bottom: 47px;
+        max-width: 480px;
+        font-size: 60px;
+        line-height: 61px;
+        letter-spacing: -3px;
+    }
+
+    .about-us__text {
+        margin-bottom: 34px;
+        max-width: 560px;
+    }
+
+    .about-us__points {
+        margin-bottom: 0;
+        padding-left: 48px;
+    }
+
+    .about-us__point:before {
+        top: 6px;
+        left: -39px;
+        transform: initial;
+    }
+
+    .about-us__point:not(:last-of-type) {
+        margin-bottom: 26px;
+    }
+
+    .about-us__image {
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        right: 100%;
+        width: 500px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .about-us__title {
+        max-width: 750px;
+        margin-bottom: 44px;
+    }
+
+    .about-us__text {
+        max-width: 715px;
+    }
+
+    .about-us__point:not(:last-of-type) {
+        margin-bottom: 24px;
+    }
+
+    .about-us__image {
+        width: 580px;
+        right: calc(100% + 30px);
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .about-us {
+        position: relative;
+    }
+    
+    .about-us__content {
+        position: static;
+    }
+
+    .about-us__image {
+        left: 0;
+        right: initial;
+    }
+}
