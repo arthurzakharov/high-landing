@@ -26,16 +26,12 @@
     padding-right: initial;
     margin-left: auto;
     margin-right: auto;
-  }
-  .layout__content--primary,
-  .layout__content--secondary {
     max-width: 960px;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .layout__content--primary,
-  .layout__content--secondary {
+  .layout__content {
     max-width: 1280px;
   }
 }
