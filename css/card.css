@@ -1,0 +1,107 @@
+.card {
+    width: 100%;
+    padding: 52px 24px 48px 24px;
+}
+
+.card--white {
+    border: 1px solid #151515;
+    background-color: #ffffff;
+}
+
+.card--white .card__list-item:before {
+    background-color: #151515;
+}
+
+.card--dark {
+    background-color: #151515;
+    color: #ffffff;
+}
+
+.card--dark .card__list-item:before {
+    background-color: #ffffff;
+}
+
+.card__price {
+    display: inline-block;
+    position: relative;
+    margin-bottom: 26px;
+    padding-left: 20px;
+    font-weight: 800;
+    font-size: 80px;
+    line-height: 82px;
+    letter-spacing: -4px;
+}
+
+.card__sup {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.card__sub {
+    position: absolute;
+    bottom: 8px;
+    left: calc(100% + 10px);
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: initial;
+}
+
+.card__sub:last-of-type {
+    display: none;
+}
+
+.card__text {
+    margin-bottom: 33px;
+}
+
+.card__list {
+    padding-left: 22px;
+    margin-bottom: 61px;
+}
+
+.card__list-item {
+    position: relative;
+}
+
+.card__list-item:before {
+    display: block;
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: 5px;
+    left: -22px;
+    transform: translateX(-50%);
+    width: 10px;
+    height: 10px;
+}
+
+.card__list-item:not(:last-of-type) {
+    margin-bottom: 26px;
+}
+
+.card__button {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+@media screen and (min-width: 1024px) {
+    .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .card__sub:first-of-type {
+        display: none;
+    }
+
+    .card__sub:last-of-type {
+        display: block;
+        white-space: nowrap;
+    }
+}

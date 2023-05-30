@@ -17,3 +17,7 @@
   background-color: #FFFFFF;
   color: #151515;
 }
+
+.button--full {
+  width: 100%;
+}
