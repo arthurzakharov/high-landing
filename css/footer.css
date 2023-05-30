@@ -46,6 +46,14 @@
     border: 1px dashed #cacaca;
 }
 
+.footer__logo {
+    width: 52px;
+}
+
+.footer__icon {
+    width: 60px;
+}
+
 .footer__links {
     list-style: none;
 }

@@ -22,6 +22,14 @@
   align-items: center;
 }
 
+.header__logo {
+  width: 52px;
+}
+
+.header__burger {
+  width: 52px;
+}
+
 @media screen and (min-width: 1024px) {
   .header__buttons {
     display: flex;
