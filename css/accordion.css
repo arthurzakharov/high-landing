@@ -1,0 +1,46 @@
+.accordion {}
+
+.accordion__item:not(:last-of-type) {
+    border-bottom: 1px solid #151515;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.accordion__head {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.accordion__title {
+    margin-bottom: 10px;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.accordion__button {
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 1;
+}
+
+.accordion__text--hidden {
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .accordion__title {
+        margin-bottom: 20px;
+    }
+
+    .accordion__text {
+        max-width: 590px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .accordion__text {
+        max-width: 765px;
+    }
+}
