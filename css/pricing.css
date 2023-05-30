@@ -1,0 +1,108 @@
+.pricing__label {
+    margin-bottom: 20px;
+}
+
+.pricing__title {
+    max-width: 275px;
+    margin-bottom: 35px;
+}
+
+.pricing__text {
+    margin-bottom: 40px;
+}
+
+.pricing__image {
+    display: block;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 280px;
+}
+
+.pricing__card {
+    width: 100%;
+    height: 540px;
+    background: darkgrey;
+}
+
+.pricing__card:not(:last-of-type) {
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 1024px) {
+    .pricing {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+    }
+
+    .pricing__content {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .pricing__title {
+        max-width: 590px;
+        margin-bottom: 56px;
+        text-align: right;
+    }
+
+    .pricing__text {
+        max-width: 350px;
+        margin-bottom: 84px;
+        text-align: right;
+    }
+
+    .pricing__cards {
+        display: flex;
+        flex-basis: 100%;
+    }
+
+    .pricing__card {
+        height: 644px;
+    }
+
+    .pricing__card:not(:last-of-type) {
+        margin-bottom: 0;
+        margin-right: 24px;
+    }
+
+    .pricing__image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 380px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .pricing {
+        padding-top: 112px;
+    }
+
+    .pricing__title {
+        max-width: 745px;
+        margin-bottom: 38px;
+    }
+
+    .pricing__text {
+        max-width: 500px;
+        margin-bottom: 180px;
+    }
+
+    .pricing__card:not(:last-of-type) {
+        margin-right: 16px;
+    }
+
+    .pricing__image {
+        width: 470px;
+    }
+}
+
+@media screen and (min-width: 2560px) {
+    .pricing__title {
+        margin-bottom: 44px;
+    }
+}
