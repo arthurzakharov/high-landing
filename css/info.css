@@ -1,9 +1,5 @@
 .info__title {
     margin-bottom: 35px;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 29px;
-    letter-spacing: -1.4px;
 }
 
 .info__text {
@@ -51,9 +47,6 @@
     .info__title {
         max-width: 450px;
         margin-bottom: 20px;
-        font-size: 70px;
-        line-height: 80px;
-        letter-spacing: -4px;
     }
 
     .info__text {

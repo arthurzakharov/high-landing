@@ -1,0 +1,38 @@
+.primary-header {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 29px;
+    letter-spacing: -1.4px;
+}
+
+.secondary-header {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 29px;
+    letter-spacing: -1.4px;
+}
+
+.section-label {
+    display: inline-block;
+    border: 1px solid #151515;
+    padding: 13px 16px 7px 16px;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+@media screen and (min-width: 1024px) {
+    .primary-header {
+        margin-bottom: 20px;
+        font-size: 70px;
+        line-height: 80px;
+        letter-spacing: -4px;
+    }
+
+    .secondary-header {
+        font-size: 60px;
+        line-height: 61px;
+        letter-spacing: -3px;
+    }
+}

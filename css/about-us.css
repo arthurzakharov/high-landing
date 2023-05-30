@@ -3,23 +3,12 @@
 }
 
 .about-us__label {
-    display: inline-block;
     margin-bottom: 20px;
-    border: 1px solid #151515;
-    padding: 13px 16px 7px 16px;
-    font-weight: 800;
-    font-size: 14px;
-    line-height: 1;
-    text-transform: uppercase;
 }
 
 .about-us__title {
     max-width: 282px;
     margin-bottom: 29px;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 29px;
-    letter-spacing: -1.4px;
 }
 
 .about-us__text {
@@ -69,9 +58,6 @@
     .about-us__title {
         margin-bottom: 47px;
         max-width: 480px;
-        font-size: 60px;
-        line-height: 61px;
-        letter-spacing: -3px;
     }
 
     .about-us__text {
